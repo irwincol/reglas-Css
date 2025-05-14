@@ -1,0 +1,35 @@
+.topo{
+    background-color: black;
+    width: 50px;
+    height: 70px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    font-size: 30px;
+    position: relative;
+    animation: movertopo 10s infinite;
+}
+.pico{
+    
+}
+
+@keyframes movertopo {
+    0%{
+        top: 0;
+        left: 0;
+
+    }
+    25%{
+        background-color: transparent;
+        color: red;
+    }
+
+    100%{
+        top: 0;
+        left: 500px;
+
+    }
+    
+}

@@ -1,0 +1,20 @@
+h1{
+    color: red;
+}
+
+span{
+    background-color: yellow;
+    color: red;
+    padding: 5px 7px;
+    border-radius: 10px;
+}
+
+span:hover{
+    background-color: red;
+    color: yellow;
+}
+
+p{
+    color: black;
+    font-weight: bold;
+}

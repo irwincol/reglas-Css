@@ -1,0 +1,55 @@
+/* aqui importamos hoja de estilos de otra css */
+@import url("colores.css");
+/* tipografias */
+@import url('https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&family=Dancing+Script:wght@400..700&family=Tuffy:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@font-face{font-family: "letratitulo" ;
+    src: url("FiraSans-Heavy.otf");
+}    
+
+
+h1,h2,h3{
+    font-family: "letratitulo";
+}
+
+/* agregamos este estilo con importando el link y colocndolo en html */
+
+p{
+ font-family: "Cascadia Code", sans-serif;
+}
+
+/* este ejemplo lo hicimos con la regla @import */
+
+span{
+    font-family: "Tuffy", sans-serif;
+    
+}
+
+
+/* a PARTIR DE AQUI EMPEZAMOS A HACER QUE LA PAGINA SE ADAPATE A  LOS DISTINTOS DISPOSITIVOS */
+/* estilos generales */
+
+
+
+
+/* estilos celulares */
+@media screen  and (max-width:556px){
+    body{
+        background-color: yellow;
+    }
+    
+}
+
+/* estilos tablets */
+@media screen and (min-width:557px) and (max-width: 1080px) {
+    body{
+        background-color: blue;
+    }
+    
+}
+
+/* PC PORTATILES*/
+@media (min-width: 1081px) and (max-width: 1300px){
+    body{
+        background-color: palevioletred;
+    }
+}
